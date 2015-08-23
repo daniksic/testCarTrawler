@@ -1,0 +1,2 @@
+angular.module("ct").run(["$templateCache", function($templateCache) {$templateCache.put("app/views/home/carDetail.tmpl.html","<h1>Car Details</h1><div>{{vm.cars}}</div>");
+$templateCache.put("app/views/home/carlist.tmpl.html","<h1>Car list</h1><div>{{vm.cars}}</div>");}]);
